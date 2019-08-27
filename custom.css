@@ -1,0 +1,119 @@
+body {
+	background-color: white;
+}
+.active {
+}
+.container {
+	margin-left: 2%;
+	width: 100%;
+}
+.tabbable.span8 {
+	width: 740px;
+}
+#temperature-graph {
+	background: none;
+}
+
+.span8 {
+	width: 42%;
+	margin-left: 2%;
+}
+
+#rightMenu {
+	width: 400px;
+	height: 100px;
+	border: none;
+}
+.temperature_offset {
+	display: none;
+}
+#temp_link {
+	display: none;
+}
+.plugin-editable.editable {
+	display: none;
+}
+#timelapse_link {
+	display: none;
+}
+.nav-tabs > li > a {
+	border: none;
+	background-color: #424a54;
+	border-radius: 0px;
+	color: white;
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+	border: none;
+	background-color: #abd03f;
+	border-radius: 0px;
+	color: white;
+}
+.accordion-group {
+	border: none;
+}
+.accordion-group, .octoprint-container .tab-content, .octoprint-container, .tab-content, #temperature-table * {
+	border: none;
+}
+.table-bordered {
+	border: none;
+}
+
+#navbar .navbar-inner {
+	background-color: #424a54;
+}
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+	box-shadow: white;
+}
+#navbar .navbar-inner .brand, #navbar .navbar-inner .nav>li>a {
+	color: white;
+	text-shadow: none;
+}
+.navbar-text > span {
+	color: white;
+	text-shadow: none;
+}
+#job_progressBar {
+	background-color: #abd03f;
+}
+.btn-primary[disabled], .btn-primary.disabled {
+	background-color: #6e7071;
+	border-radius: 0px;
+	text-shadow: none;
+}
+.btn-primary.active {
+	background-color: #abd03f;
+	border-radius: 0px;
+	text-shadow: none;
+}
+#printer_connect {
+	background-color: #abd03f;
+	border-radius: 0px;
+	text-shadow: none;
+	color: white;
+	border: none;
+}
+.btn, .btn-primary, .fileinput-button {
+	background-color: #abd03f;
+	border-radius: 0px;
+	border: none;
+	color: white;
+	text-shadow: none;
+}
+
+
+#files_wrapper {
+	display: none;
+}
+.icon-folder-open {
+	margin-right:10px;
+}
+
+/*
+#state_wrapper {
+	position: absolute;
+	top: 70px;
+	right: 200px;
+}
+*/
+
+
