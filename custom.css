@@ -24,6 +24,9 @@ body {
 	height: 100px;
 	border: none;
 }
+.footer {
+	display: none;
+}
 .temperature_offset {
 	display: none;
 }
@@ -58,6 +61,9 @@ body {
 	border: none;
 }
 
+div#navbar {
+	background-color: #424a54;
+}
 #navbar .navbar-inner {
 	background-color: #424a54;
 }
