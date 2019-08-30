@@ -18,3 +18,6 @@ add following before &lt;/header&gt;
 &lt;link href="http://192.168.120.244:88/custom.css" rel="stylesheet"&gt;
 
 &lt;script src="http://192.168.120.244:88/custom.js" type="text/javascript"&gt;&lt;/script&gt;
+
+
+next: compile and serve
