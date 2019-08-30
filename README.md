@@ -12,8 +12,8 @@ in files :
 * ./venv/lib/python2.7/site-packages/octoprint/templates/index.jinja2
 
 
-add following before &gt;/header&lt;
+add following before &lt;/header&gt;
 
 
-<link href="http://192.168.120.244:88/custom.css" rel="stylesheet">
-<script src="http://192.168.120.244:88/custom.js" type="text/javascript"></script>
+&lt;link href="http://192.168.120.244:88/custom.css" rel="stylesheet"&gt;
+&lt;script src="http://192.168.120.244:88/custom.js" type="text/javascript"&gt;&lt;/script&gt;
