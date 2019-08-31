@@ -9,11 +9,7 @@ install "Navbar Temperature Plugin (0.xx)"
 
 edit file : /home/octoprint/OctoPrint/src/octoprint/templates/index.jinja2
 
-add following before 
-
-```
-</header>
-```
+add following before &lt;/header&gt;
 
 and paste:
 
@@ -23,7 +19,7 @@ and paste:
         <script src="http://192.168.120.244:88/custom.js" type="text/javascript"></script>
 ```
 
-next: put custom.js, custom.css and jquery.js on any webserver and adapt ip in previous step
+next: put custom.js, custom.css and jquery.js on any webserver and adapt url in previous step
 
 next: compile and serve
 
