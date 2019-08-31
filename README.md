@@ -18,7 +18,7 @@ add following before
 and paste:
 
 ```
-        <script type="text/javascript" src="http://192.168.120.244:88/jquery-3.4.1.slim.min.js"></script>
+        <script type="text/javascript" src="http://192.168.120.244:88/jquery.js"></script>
         <link href="http://192.168.120.244:88/custom.css" rel="stylesheet">
         <script src="http://192.168.120.244:88/custom.js" type="text/javascript"></script>
 ```
