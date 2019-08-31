@@ -23,6 +23,8 @@ and paste:
         <script src="http://192.168.120.244:88/custom.js" type="text/javascript"></script>
 ```
 
+next: put custom.js, custom.css and jquery.js on any webserver and adapt ip in previous step
+
 next: compile and serve
 
 
