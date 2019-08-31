@@ -11,8 +11,6 @@ edit file : /home/octoprint/OctoPrint/src/octoprint/templates/index.jinja2
 
 add following before &lt;/header&gt;
 
-and paste:
-
 ```
         <script type="text/javascript" src="http://192.168.120.244:88/jquery.js"></script>
         <link href="http://192.168.120.244:88/custom.css" rel="stylesheet">
