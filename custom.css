@@ -30,14 +30,11 @@ body {
 .temperature_offset {
 	display: none;
 }
-#temp_link {
-	display: none;
-}
 .plugin-editable.editable {
 	display: none;
 }
-#timelapse_link {
-	display: none;
+.nav.nav-tabs {
+	margin-bottom: 5%;
 }
 .nav-tabs > li > a {
 	border: none;
@@ -69,7 +66,18 @@ div#navbar {
 }
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
 	box-shadow: white;
+	color: white;
 }
+div#gcode, div#term, #term_link, #gcode_link, #temp_link, #timelapse_link {
+	display: none;
+}
+.navbar-inner .navbar-text {
+	font-size: 80%;
+	text-shadow: none;
+	box-shadow: white;
+	color: white;
+}
+
 #navbar .navbar-inner .brand, #navbar .navbar-inner .nav>li>a {
 	color: white;
 	text-shadow: none;
